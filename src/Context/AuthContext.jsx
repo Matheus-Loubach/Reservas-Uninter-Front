@@ -70,7 +70,7 @@ const AuthContext = ({ children }) => {
             } else {
                 localStorage.removeItem("token");
                 localStorage.removeItem("auth");
-                navigate('/login');
+                navigate('/');
             }
         } catch (error) {
             console.error("Error during login:", error);
@@ -96,7 +96,7 @@ const AuthContext = ({ children }) => {
                 setMessage(res)
             }
             if (res.msg) {
-                navigate('/login')
+                navigate('/')
                 setMessage(res)
             }
             else {
@@ -212,7 +212,7 @@ const AuthContext = ({ children }) => {
         localStorage.removeItem("id");
         localStorage.removeItem("dataUser");
         setIsAuthenticated(false);
-        navigate('/login')
+        navigate('/')
     }
 
     // Dados da reserva

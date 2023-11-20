@@ -23,7 +23,7 @@ function App() {
 
       {isAuthenticated && <Home />} {/* Menu NavBar*/}
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/user" element={isAuthenticated && <Painel />} />  {/*Tela Inicial*/}
         <Route path="/profile" element={isAuthenticated && <Profile />} />  {/*Perfil Usuario*/}
