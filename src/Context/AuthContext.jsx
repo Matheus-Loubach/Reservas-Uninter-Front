@@ -52,7 +52,7 @@ const AuthContext = ({ children }) => {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:3000/api/login", {
+            const response = await fetch("https://reservas-uninter-back.vercel.app/api/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -82,7 +82,7 @@ const AuthContext = ({ children }) => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:3000/api/register', {
+            const response = await fetch('https://reservas-uninter-back.vercel.app/api/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -110,7 +110,7 @@ const AuthContext = ({ children }) => {
     // Função para deletar reserva (admin)
     const deleteReserveAdmin = async (id) => {
         try {
-            const response = await fetch(`http://localhost:3000/api/delete/reserve/${id}`, {
+            const response = await fetch(`https://reservas-uninter-back.vercel.app/api/delete/reserve/${id}`, {
                 method: 'DELETE',
                 headers: {
                     Authorization: `Bearer ${tokenUser}`,
@@ -133,7 +133,7 @@ const AuthContext = ({ children }) => {
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const response = await fetch("http://localhost:3000/api/profile", {
+                const response = await fetch("https://reservas-uninter-back.vercel.app/api/profile", {
                     method: 'GET',
                     headers: {
                         Authorization: `Bearer ${tokenUser}`,
@@ -170,7 +170,7 @@ const AuthContext = ({ children }) => {
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const response = await fetch("http://localhost:3000/api/search/reserve/" + idUserOn, {
+                const response = await fetch("https://reservas-uninter-back.vercel.app/api/search/reserve/" + idUserOn, {
                     method: 'GET',
                     headers: {
                         Authorization: `Bearer ${tokenUser}`,
@@ -189,7 +189,7 @@ const AuthContext = ({ children }) => {
     useEffect(() => {
         const fetchReserves = async () => {
             try {
-                const response = await fetch("http://localhost:3000/api/search/reserve/", {
+                const response = await fetch("https://reservas-uninter-back.vercel.app/api/search/reserve/", {
                     method: 'GET',
                     headers: {
                         Authorization: `Bearer ${tokenUser}`,
@@ -233,7 +233,7 @@ const AuthContext = ({ children }) => {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:3000/api/create/reserve", {
+            const response = await fetch("https://reservas-uninter-back.vercel.app/api/create/reserve", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

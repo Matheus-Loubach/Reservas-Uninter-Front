@@ -8,7 +8,7 @@ const MyReservers = () => {
 
   const deleteReserveAdmin = async (id) => {
     try {
-      const response = await fetch(`http://localhost:3000/api/delete/reserve/${id}`, {
+      const response = await fetch(`https://reservas-uninter-back.vercel.app/api/delete/reserve/${id}`, {
         method: 'DELETE',
       });
 

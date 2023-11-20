@@ -12,7 +12,7 @@ const AllReserves = () => {
   //Delete Reserve 
   const deleteReserveAdmin = async (id) => {
     try {
-      const response = await fetch(`http://localhost:3000/api/delete/reserve/${id}`, {
+      const response = await fetch(`https://reservas-uninter-back.vercel.app/api/delete/reserve/${id}`, {
         method: 'DELETE',
       });
 
@@ -33,7 +33,7 @@ const AllReserves = () => {
   const updateReserveStatus = async (id, newStatus) => {
 
     try {
-      const response = await fetch(`http://localhost:3000/api/update/reserve/${id}`, {
+      const response = await fetch(`https://reservas-uninter-back.vercel.app/api/update/reserve/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
