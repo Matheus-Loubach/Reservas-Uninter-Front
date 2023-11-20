@@ -1,0 +1,22 @@
+
+body {
+  background-image: url(./assets/fundoLogin.jfif);
+  height: 728px;
+  position: relative;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.AlertMessage{
+  color: #2bff00;
+  font-weight: bold;
+}
+
+.AlertMessageError{
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}

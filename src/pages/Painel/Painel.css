@@ -1,0 +1,43 @@
+.container_painel {
+    padding: 25px;
+    margin: 10px;
+}
+
+.container_painel h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffb218;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.container_painel article {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: center;
+    text-align: center;
+}
+
+.container_painel .item {
+    align-items: center;
+    padding: 10%;
+    text-transform: uppercase;
+    background-color: #003169;
+    border: 1px solid transparent;
+    margin: 5%;
+}
+
+
+.container_painel a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container_painel .item:hover {
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    background-color: #0154b3;
+}

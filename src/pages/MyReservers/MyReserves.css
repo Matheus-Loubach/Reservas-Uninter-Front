@@ -1,0 +1,33 @@
+div {
+  margin: 20px;
+  color: #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: #FFFFFF;
+}
+
+th {
+  background-color: #0066ff;
+  text-align: center;
+}
+
+
+tr td{
+  background-color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.service-details {
+  margin-bottom: 20px;
+}

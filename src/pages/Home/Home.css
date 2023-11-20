@@ -1,0 +1,35 @@
+/* Home.css */
+.container_user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003169;
+    border-top: solid 10px #ffb218;
+    padding: 10px;
+    color: #FFFFFF;
+  }
+
+  .menu{
+    align-items: center;
+    font-size: 1.2em;
+  }
+
+  .menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .container_user ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .container_user ul li {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .container_user img{
+    width: 50px;
+  }
+  

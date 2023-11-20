@@ -1,0 +1,77 @@
+/* Adicione estilos conforme necessário */
+.container_reserver {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_reserver form{
+  border: 2px solid #0066ff;
+  border-radius: 10%;
+  display: inline-block;
+  margin: 0;
+  padding: 80px;
+  background: linear-gradient(90deg, #ffffff 0%, rgba(0, 0, 0, 0.801) 0%);
+  backdrop-filter: blur(3px);
+}
+
+.container_reserveALL{
+  cursor: pointer;
+}
+
+.container_reserveALL td:hover{
+  background-color: #003169;
+}
+
+:is(.buttonDenied:hover, .buttonDelete:hover){
+  background-color: #ff0000;
+  color: #000000;
+}
+
+.buttonAccept:hover{
+  background-color: #1ee004;
+  color: #000000;
+}
+
+div {
+  margin: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+form {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #003169;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #025cc2;
+}
