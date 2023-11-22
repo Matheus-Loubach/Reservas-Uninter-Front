@@ -50,6 +50,6 @@
 - Os modelos correspondentes estão localizados em ../Models/userModel e ../Models/reserveModel.
 ## Executando a Aplicação
 Certifique-se de ter as dependências instaladas usando npm install.
-Execute a aplicação usando npm start.
+Execute a aplicação usando npm run dev.
 
 BackEnd -> https://github.com/Matheus-Loubach/Reservas-Uninter-Back
