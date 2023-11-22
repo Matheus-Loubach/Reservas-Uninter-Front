@@ -42,8 +42,8 @@
 ## Testes de Administração
 - Email de Administrador: admin@gmail.com
 - Senha de Administrador: Ma1832ma@
-#Configuração do Token JWT
-O token JWT é gerado com base no ID do usuário e expira em 7 dias.
+## Configuração do Token JWT
+- O token JWT é gerado com base no ID do usuário e expira em 7 dias.
 
 ## Configuração do Banco de Dados
  - Este sistema utiliza um banco de dados não relacional(MongoDB) para armazenar informações de usuários e reservas.
